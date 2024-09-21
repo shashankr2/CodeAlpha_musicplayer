@@ -1,0 +1,72 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3a6d8c;
+}
+
+/* Music Player with background */
+.player {
+  background-color: #001f3f; /* or use background-image: url('background.jpg'); */
+  background-size: cover; /* This is for background image, remove if using color */
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+
+#song-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ead8b1;
+}
+
+#song-author {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #ead8b1;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+#progress-bar {
+  width: 100%;
+}
+
+.volume-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#volume {
+  width: 70%;
+}
